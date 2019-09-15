@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 import Header from "../components/Headers"
 import Footer from "../components/Footer"
 import SEO from "../components/SEO"
-import innertext from "innertext"
+
 
 const BlogpostLayout = ({data}) => {
     const post = data.markdownRemark;
@@ -11,8 +11,8 @@ const BlogpostLayout = ({data}) => {
     <React.Fragment>
       <div>
         <SEO
-          title={innertext(post.title)}
-          description={innertext(post.excerpt)}
+          title={post.title}
+          description={post.excerpt}
           image={post.frontmatter.image}
           keywords={post.frontmatter.keywords}
         />
