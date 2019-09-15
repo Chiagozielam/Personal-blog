@@ -6,4 +6,27 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: "Gatsby-Bootstrap",
+    description: "This is a blog that gives you any latest content from me",
+    keywords: "gatsby, reactjs, graphql, javascript",
+    image: "/static/gatsby.jpg",
+    url: "https://www.gatsbyjs.org",
+  },
+  plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `src`,
+        path: `${__dirname}/src/`,
+      },
+    },
+    { resolve: `gatsby-transformer-remark` },
+    {resolve: `gatsby-source-wordpress`, options: {
+      baseUrl: `codingsrc.com`,
+      protocol: `http`,
+      hostingWPCOM: false,
+    }},
+    `gatsby-plugin-react-helmet`
+  ]
 }
