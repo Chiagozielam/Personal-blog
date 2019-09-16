@@ -7,23 +7,25 @@ const Contact = () => (
       <div className="">
         <h1>Contact Us</h1>
         <div className="pt-5">
-          <Form action="https://formspree.io/dandons25@gmail.com" classname="pt-5">
-            <Form.Group controlId=" contactForm.ControlInput1">
-              <Form.Label>Email address</Form.Label>
-              <Form.Control type="email" placeholder="name@example.com" />
-            </Form.Group>
-            <Form.Group controlId=" contactForm.ControlInput1">
-              <Form.Label>Subject</Form.Label>
-              <Form.Control type="text" placeholder="Subject..." />
-            </Form.Group>
-            <Form.Group controlId=" contactForm.ControlTextarea1">
-              <Form.Label>Message</Form.Label>
-              <Form.Control as="textarea" rows="3" />
-            </Form.Group>
-            <Form.Group controlId=" contactForm.Submit">
-              <Button>Submit</Button>
-            </Form.Group>
-          </Form>
+          <form action="https://formspree.io/email@domain.tld" method="POST" >
+            <Form classname="pt-5">
+              <Form.Group controlId=" contactForm.ControlInput1">
+                <Form.Label>Email address</Form.Label>
+                <Form.Control name="email" type="email" placeholder="name@example.com" />
+              </Form.Group>
+              <Form.Group controlId=" contactForm.ControlInput1">
+                <Form.Label>Subject</Form.Label>
+                <Form.Control name="subject" type="text" placeholder="Subject..." />
+              </Form.Group>
+              <Form.Group controlId=" contactForm.ControlTextarea1">
+                <Form.Label>Message</Form.Label>
+                <Form.Control nane="message" as="textarea" rows="3" />
+              </Form.Group>
+              <Form.Group controlId=" contactForm.Submit">
+                <Button>Submit</Button>
+              </Form.Group>
+            </Form>
+          </form>
         </div>
       </div>
     </PrimaryLayout>

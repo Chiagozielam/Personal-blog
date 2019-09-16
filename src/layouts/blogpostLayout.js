@@ -23,7 +23,7 @@ const BlogpostLayout = ({data}) => {
           <Profile />
           <div className="row justify-content-md">
               <h1>{post.frontmatter.title}</h1>
-              <p><img src={post.frontmatter.image} style={{ width: "100%",}}/></p>
+              <p style={{ margin: "4% auto"}}><img src={post.frontmatter.image} style={{ width: "100%"}}/></p>
               <div style={{fontSize: "20px"}} dangerouslySetInnerHTML= {{__html: post.html}} />    
           </div>
         </div>

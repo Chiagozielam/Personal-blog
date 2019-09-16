@@ -3,8 +3,8 @@ import {Card, Button} from 'react-bootstrap'
 
 const Post = (props) => (
   <div className="mt-5 shadow">
-    <Card >
-      <Card.Img variant="top" src={props.image} />
+    <Card>
+      <a href={props.readMore}><Card.Img variant="top" src={props.image} /></a>
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text>
