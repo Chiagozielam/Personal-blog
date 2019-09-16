@@ -11,7 +11,7 @@ const Profile = () => (
             <div className="col-lg-4 col-sm-7">
                 <div style={{ paddingLeft: "4%", paddingTop: "2%", fontSize: "14px" }}>
                     <h3>Daniel Don</h3>
-                    <p>JavaScript Developer, NodeJs, React, Gatsby, I'm a happy teen ⚡⚡</p>
+                    <p>JavaScript Developer, NodeJs, React, Gatsby. Teens' In Tech advocate. I LOVE FUN! ⚡⚡</p>
                     <span style={{ fontSize: "25px", marginLeft: "2%"}}>
                         <a href="https://twitter.com/spillcode"><FontAwesomeIcon icon={faTwitter} /></a>
                         <a style={{ marginLeft: "3%"}} href="https://web.facebook.com/spillcode"><FontAwesomeIcon icon={faFacebook} /></a>
