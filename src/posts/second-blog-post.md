@@ -1,19 +1,26 @@
 ---
-title: "Ramdom Words For You"
+title: "UNDERSTANDING HOW THE WEB WORKS"
 date: "2019-08-24"
 keywords: "first keyword, second keyword"
-image: "https://i.ytimg.com/vi/WhdZHVqJKcc/maxresdefault.jpg"
+image: "https://www.academind.com/static/359f7439a71a225da229970d54d36379/8ff1e/how-the-web-works.png"
 
 ---
 
-Not far stuff she think the jokes. Going as by do known noise he wrote round leave. Warmly put branch people narrow see. Winding its waiting yet parlors married own feeling. Marry fruit do spite jokes an times. Whether at it unknown warrant herself winding if. Him same none name sake had post love. An busy feel form hand am up help. Parties it brother amongst an fortune of. Twenty behind wicket why age now itself ten. 
+`Before we go into HTML I'll explain how the web works so that you understand the work flow that happens when you use the web on a daily..`
+.
 
-Full age sex set feel her told. Tastes giving in passed direct me valley as supply. End great stood boy noisy often way taken short. Rent the size our more door. Years no place abode in ﻿no child my. Man pianoforte too solicitude friendship devonshire ten ask. Course sooner its silent but formal she led. Extensive he assurance extremity at breakfast. Dear sure ye sold fine sell on. Projection at up connection literature insensible motionless projecting. 
+---
 
-Forfeited you engrossed but gay sometimes explained. Another as studied it to evident. Merry sense given he be arise. Conduct at an replied removal an amongst. Remaining determine few her two cordially admitting old. Sometimes strangers his ourselves her depending you boy. Eat discretion cultivated possession far comparison projection considered. And few fat interested discovered inquietude insensible unsatiable increasing eat. 
+##BROWSERS
+ -- people access websites by using software called web browser, there are some examples of these browsers including, opera mini, chrome, Firefox, safari, etc. In order to open a website the user has to type in the webadress or follow a link to the other website.
+Web browsers are always upgraded to support new features of a language and improve on the overall quality.
+.
+##WEB SERVERS
+ -- when the web address of a website is typed into the browser, the request is sent to a special place on the internet known as the web server, this is where the website is hosted. Web servers are simple, they are special computers that are always connected to the internet and are used to send web pages out to people who want to use them! Pretty easy right?.
+.
+##DEVICES 
+-- you access a site through different range of devices, from your phones, laptops, tablets, etc. It is also important to not that different phones have different screen sizes, and their connection speed varies.
 
-If wandered relation no surprise of screened doubtful. Overcame no insisted ye of trifling husbands. Might am order hours on found. Or dissimilar companions friendship impossible at diminution. Did yourself carriage learning she man its replying. Sister piqued living her you enable mrs off spirit really. Parish oppose repair is me misery. Quick may saw style after money mrs. 
+---
 
-Lose eyes get fat shew. Winter can indeed letter oppose way change tended now. So is improve my charmed picture exposed adapted demands. Received had end produced prepared diverted strictly off man branched. Known ye money so large decay voice there to. Preserved be mr cordially incommode as an. He doors quick child an point at. Had share vexed front least style off why him. 
-
-Inhabiting discretion the her dispatched decisively boisterous joy. So form were wish open is able of mile of. Waiting express if prevent it we an musical. Especially reasonable travelling she son. Resources resembled forfeited no to zealously. Has procured daughter how friendly followed repeated who surprise. Great asked oh under on voice downs. Law together prospect kindness securing six. Learning why get hastened smallest cheerful. 
+### Do you have any Questions? send me a message on twitter or facebook and I'll be thrilled to meet and help you get started

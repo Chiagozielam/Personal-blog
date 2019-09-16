@@ -7,7 +7,7 @@ const Contact = () => (
       <div className="">
         <h1>Contact Us</h1>
         <div className="pt-5">
-          <Form classname="pt-5">
+          <Form action="https://formspree.io/dandons25@gmail.com" classname="pt-5">
             <Form.Group controlId=" contactForm.ControlInput1">
               <Form.Label>Email address</Form.Label>
               <Form.Control type="email" placeholder="name@example.com" />

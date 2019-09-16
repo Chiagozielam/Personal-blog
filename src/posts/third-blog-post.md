@@ -1,16 +1,18 @@
 ---
-title: "Scorpion - Why The Show Was Cancelled!"
+title: "Web Developer Vs Web Designer"
 date: "2019-08-25"
-keywords: "first keyword, second keyword"
-image: "https://pbs.twimg.com/media/EArD6JgVUAItCL2?format=jpg&name=small"
+keywords: "web developer, developer, designer, web designer"
+image: "https://file.mockplus.com/image/2017/11/a67e00d9-1e42-406a-99a9-056c8167020b.jpg"
 ---
 
-Beware, Scorpion fans, this is gonna sting: CBS has cancelled the geek-driven drama after four seasons, TVLine has learned. The series — which closed out Season 4 last month with 5.1 million total viewers and an all-time low 0.7 rating — was conspicuously missing from the network’s renewal spree three weeks ago (which promoted us to downgrade the series’ prospects from “safe bet” to could go either way).”
-
-Scorpion‘s demise brings to 20 the number of broadcast series put to rest since Thursday.
-
-Loosely based on the life of computer wiz Walter O’Brien, Scorpion — which aired Mondays for its entire four-season run, first at 9/8c but most recently at 10 pm — premiered in 2014. It starred English actor Elyes Gabel, Smash alum Katharine McPhee, X-Files‘ Robert Patrick American Pie vet Eddie Kaye Thomas, Being Erica’s Jadyn Wong and relative newcomer Ari Stidham.
-
->“Thank you to all the fans,” Patrick shared on Twitter. “The writers, the crew, the cast, >and CBS — it’s been a great story to tell and a hell of a run! On to the next!”
-
->“Thank you to all the fans,” Patrick shared on Twitter. “The writers, the crew, the cast, >and CBS — it’s been a great story to tell and a hell of a run! On to the next!”
+.
+While These two all work together to build a website, they do not have the same functions.
+.
+I'll try to explain this as quickly as I can...
+.
+A web designer basically focuses on the design of the user interface and user experience. This means that he doesn't have to do much with code(although sometimes it good he/she understand a little bit of the actual code but it's not really necessary). The web designer just focuses on designing the how the web page should look like, the right colors, images etc. This can be done with various softwares like Photoshop, Adobe XD, Sketch, GIMP, etc.
+.
+.
+On the other hand a web developer has two other parts, these includes, the front-end web developer, and the back-end web developer... The front-end web developer converts what the web designer has designed into actual code that the browser can interpret and the end user can see... (Many front-end developers are also web designers and mostly big companies hire the two at a time, others hire front-end developers and expect them to do the design also).
+.
+While the back-end developers handles the logic and invests functionalities of the site the the users don't really get to see
