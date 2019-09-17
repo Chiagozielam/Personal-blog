@@ -10,7 +10,7 @@ const Contact = () => (
         </h2>
         <div className="pt-5" style={{ margin: "0 auto" }}>
           <div style= {{ width: "400px", margin:" 0 auto"}}>
-            <form action="https://formspree.io/email@domain.tld" method="POST">
+            <form action="https://formspree.io/dandons25@gmail.com" method="POST">
               <p>
                 <input
                   className="form-control"
