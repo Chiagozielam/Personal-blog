@@ -9,9 +9,10 @@ module.exports = {
   siteMetadata: {
     title: "Daniel Don",
     description: "This is a blog that gives you any latest content from me",
-    keywords: "gatsby, reactjs, graphql, javascript",
+    keywords: "gatsby, reactjs, graphql, javascript, programming, concepts",
     image: "/static/gatsby.jpg",
-    url: "https://www.gatsbyjs.org",
+    url: "https://www.spillili.netlify.com",
+    twitterHandle: "@spillcode"
   },
   plugins: [
     {
