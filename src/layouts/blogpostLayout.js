@@ -27,7 +27,7 @@ const BlogpostLayout = ({ data }) => {
               <img src={post.frontmatter.image} style={{ width: "100%" }} />
             </p>
             <div
-              style={{ fontSize: "20px" }}
+              style={{ fontSize: "20px", margin: "5%" }}
               dangerouslySetInnerHTML={{ __html: post.html }}
             />
           </div>
