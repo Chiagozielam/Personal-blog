@@ -7,7 +7,7 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: "Gatsby-Bootstrap",
+    title: "Daniel Don",
     description: "This is a blog that gives you any latest content from me",
     keywords: "gatsby, reactjs, graphql, javascript",
     image: "/static/gatsby.jpg",
@@ -22,11 +22,14 @@ module.exports = {
       },
     },
     { resolve: `gatsby-transformer-remark` },
-    {resolve: `gatsby-source-wordpress`, options: {
-      baseUrl: `codingsrc.com`,
-      protocol: `http`,
-      hostingWPCOM: false,
-    }},
-    `gatsby-plugin-react-helmet`
-  ]
+    {
+      resolve: `gatsby-source-wordpress`,
+      options: {
+        baseUrl: `codingsrc.com`,
+        protocol: `http`,
+        hostingWPCOM: false,
+      },
+    },
+    `gatsby-plugin-react-helmet`,
+  ],
 }
