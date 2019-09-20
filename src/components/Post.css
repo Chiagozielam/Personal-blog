@@ -1,9 +1,8 @@
 .post-cards{
-    margin-top: -101%;
     border: 10px solid black !important;
-    transition: all .7s ease
+    transition: all .7s ease-in-out
 }
 
 .post-cards:hover{
-    margin-top: -1px !important;
+    padding: 1%
 }
