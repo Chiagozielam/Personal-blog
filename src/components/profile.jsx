@@ -45,7 +45,7 @@ const Profile = () => (
     <div
       className="row"
       className="d-none d-md-block"
-      style={{ marginTop: "14%", color: "white" }}
+      style={{ marginTop: "8%", color: "white",}}
     >
       <div className="col-1">
         <img
@@ -56,7 +56,7 @@ const Profile = () => (
         />
       </div>
       <div className="col-lg-4 col-sm-7">
-        <div style={{ paddingLeft: "4%", paddingTop: "2%" }}>
+        <div style={{ paddingLeft: "4%", paddingTop: "2%", fontSize: "80%" }}>
           <h3>Daniel Don</h3>
           <p>
             JavaScript Developer, NodeJs, React, Gatsby. Teens' In Tech

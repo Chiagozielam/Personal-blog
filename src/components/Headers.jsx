@@ -14,9 +14,6 @@ export default class Headers extends Component {
               <Link style={{textDecoration: "none"}} to="/">Home</Link>
             </Nav.Link>
             <Nav.Link>
-              <Link style={{textDecoration: "none"}} to="/about">Portfolio</Link>
-            </Nav.Link>
-            <Nav.Link>
               <Link style={{textDecoration: "none"}} to="/contact">Contact Me</Link>
             </Nav.Link>
           </Nav>
