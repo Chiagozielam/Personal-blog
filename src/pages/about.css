@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Gruppo|Rajdhani:500&display=swap');
+
+body{
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.about-body{
+    color: aliceblue;
+}
+.skills{
+    margin-top: 10%;
+}
+
+.skills hr{
+    margin-top: -4%;
+    border-color: rgb(98, 98, 98)
+}
+.skills p{
+    text-align: end;
+    padding-right: 5%
+}
+#intro-text{
+    margin-top: 10%;
+    text-align: right;
+    font-size: 16px;
+}
+
+.recommendation-img{
+    border-radius: 45px;
+    margin-left: 25%;
+    margin-top: -15%;
+    width: 150px;
+    height: 150px;
+}
+
+.recommendation-text{
+    text-align: center;
+    color: black;
+    padding-top: 3%;
+}
+.recommender-name{
+    padding-top: 1%;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 18px
+}
+.recommender-title{
+    font-weight: lighter;
+    color: rgb(87, 87, 87);
+    text-align: center;
+    font-size: 14px;
+    margin-top: -5%;
+}

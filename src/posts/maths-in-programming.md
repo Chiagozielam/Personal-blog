@@ -11,7 +11,7 @@ You've seen many scary things about this field, you've seen so much maths(the mo
 In reality all this is over hyped! It really doesn't have to be so. Programming is fun, you just have to identify a problem, think of something fun, etc. and find a way to solve it using your computer,.
 .
 So the question is: is math needed in programming? Yes it is!
-Hold on a minute teen! Its not how you're thinking of it.
+Hold on a minute you mere Human! Its not how you're thinking of it.
 Most times you just have to understand basic math operations, other time the math isn't a formula math but a logic one, this means that what is required of you is to think! (We will talk more about the thinking process in a later post).
 .
 Don't get scared silly! Brace up and change the world! And another thing! NOW IS THE TIME...
