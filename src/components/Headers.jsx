@@ -11,7 +11,7 @@ export default class Headers extends Component {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto" style={{fontSize: "22px", fontWeight: "500",}}>
             <Nav.Link>
-              <Link style={{textDecoration: "none"}} to="/">Home</Link>
+              <Link style={{textDecoration: "none"}} to="/">Blog</Link>
             </Nav.Link>
             <Nav.Link>
               <Link style={{textDecoration: "none"}} to="/contact">Contact Me</Link>

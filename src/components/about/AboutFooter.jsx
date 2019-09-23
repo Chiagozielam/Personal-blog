@@ -9,7 +9,7 @@ const AboutFooter = () => {
     <div>
       <footer className="about-footer">
         <p style={{ textAlign: "center" }}>
-          <h2>
+          <h2 style={{marginBottom: "5%",}}>
             Contact Me <FontAwesomeIcon icon={faLaptopCode} />
           </h2>
         </p>
@@ -33,7 +33,7 @@ const AboutFooter = () => {
               <textarea
                 name="message"
                 id="message"
-                class="form-control"
+                class="form-control form-inputs"
                 cols="30"
                 rows="10"
                 placeholder="Message..."
@@ -57,24 +57,25 @@ const AboutFooter = () => {
                   style={{ marginLeft: "3%" }}
                   href="https://web.facebook.com/spillcode"
                 >
-                  <FontAwesomeIcon icon={faFacebook} />
+                  <FontAwesomeIcon style={{color: "#0125AD"}} icon={faFacebook} />
                 </a>
                 {/*GITHUB*/}
                 <a
                   style={{ marginLeft: "3%" }}
                   href="https://web.facebook.com/spillcode"
                 >
-                  <FontAwesomeIcon icon={faGithub} />
+                  <FontAwesomeIcon style={{color: "#161616"}} icon={faGithub} />
                 </a>
                 {/*LINKEDIN*/}
                 <a
                   style={{ marginLeft: "3%" }}
                   href="https://web.facebook.com/spillcode"
                 >
-                  <FontAwesomeIcon icon={faLinkedin} />
+                  <FontAwesomeIcon style={{color: "#0077B5"}} icon={faLinkedin} />
                 </a>
               </span>
             </p>
+            <p><a href="spillili.netlify.com" style={{textDecoration: "none", color: "black"}}>VISIT BLOG</a></p>
           </div>
         </div>
       </footer>

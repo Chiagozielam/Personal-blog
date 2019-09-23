@@ -18,7 +18,6 @@ const PrimaryLayout = props => (
           <div className="col-12">{props.children}</div>
         </div>
       </div>
-      <Footer className="footer" />
     </div>
   </React.Fragment>
 )

@@ -2,12 +2,12 @@
     background: #EB3349;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #F45C43, #EB3349);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #F45C43, #EB3349); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-width: 100vw;
 margin-top: 5%;
-margin-left: -8%;
-padding: 5%;
+margin-left: -4%;
+padding: 10%;
 }
 
 .form-inputs{
     margin-bottom: 2%;
+    padding: 5%
 }

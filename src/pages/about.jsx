@@ -13,9 +13,14 @@ import {
   faRulerHorizontal,
   faLightbulb,
   faGripHorizontal,
+  faArrowRight,
 } from "@fortawesome/free-solid-svg-icons"
 import "./about.css"
-import { faAccessibleIcon, faLine } from "@fortawesome/free-brands-svg-icons"
+import {
+  faAccessibleIcon,
+  faLine,
+  faDashcube,
+} from "@fortawesome/free-brands-svg-icons"
 import Caurosel from "../components/about/MilestonesCarousel"
 import AboutFooter from "../components/about/AboutFooter"
 
@@ -23,17 +28,18 @@ const About = () => (
   <div className="about-body">
     <AboutMeLayout>
       <div className="row">
-        <div className="col-lg-3 col-md-4 col-sm-8">
+        <div className="col-lg-3 col-md-4 col-sm-12">
           <img
             src="https://res.cloudinary.com/dcft8yhab/image/upload/v1569178853/IMG_20190922_130327_5_1569178149915.jpg"
             width="210px"
             height="250px"
-            style={{ borderRadius: "25px" }}
+            style={{ borderRadius: "25px", margin: "0 auto" }}
             alt=""
+            id="about-me-head-img"
           />
         </div>
         <div className="col-lg-3 col-md-4 col-sm-8">
-          <div className="skills">
+          <div className="skills padding-on-small-screen">
             <p>
               Content Writer
               <FontAwesomeIcon style={{ marginLeft: "2px" }} icon={faBook} />
@@ -74,14 +80,28 @@ const About = () => (
         </div>
         <div className="col-lg-2 col-md-4 col-sm-8"></div>
         <div className="col-lg-4 col-md-4 col-sm-8">
-          <p id="intro-text">
-            Luckily friends do ashamed to do suppose. Tried meant mr smile so.
-            Exquisite behaviour as to middleton perfectly. Chicken no wishing
-            waiting am. Say concerns dwelling graceful six humoured. Whether mr
-            up savings talking an. Active mutual nor father mother exeter change
-            six did all.
+          <p id="intro-text" className=" padding-on-small-screen">
+            <h3>
+              <FontAwesomeIcon
+                style={{ marginLeft: "2px" }}
+                icon={faDashcube}
+              />
+              BIO
+            </h3>
+            Hey! I'm a Passionate software developer with 2+ years of
+            experience. I build amazing web applications targeted to suite a
+            vast variety of individuals. I make imaginations come alive by
+            working to bring out the best we possibly can while maintaining
+            accessibility and scalability <br />
             <button className="btn btn-primary">
-              Download Resume
+              <a
+                href="https://res.cloudinary.com/dcft8yhab/image/upload/v1569266908/resume.pdf"
+                target="_blank"
+                style={{ color: "white", textDecoration: "none" }}
+                download
+              >
+                Download Resume
+              </a>
               <FontAwesomeIcon
                 style={{ marginLeft: "2px" }}
                 icon={faArrowCircleDown}
@@ -98,36 +118,30 @@ const About = () => (
           <FontAwesomeIcon icon={faRulerHorizontal} />
         </p>
 
-        <div className="row">
-          <div className="col-sm-8 col-md-5 col-lg-4">
+        <div className="row padding-on-small-screen">
+          <div className="col-sm-8 col-md-5 col-lg-4 testimonial-cards">
             <TestimonialCard
               img="https://media.licdn.com/dms/image/C5603AQGG5NkP0olzTg/profile-displayphoto-shrink_200_200/0?e=1574294400&v=beta&t=QRH8Uwh8513tWf-m5qA5M_MTAJYx-2FIWTEbRzhntQM"
               name="Ben Ogie"
-              position="Lead Android Developer @ droid"
-              testimonial="Luckily friends do ashamed to do suppose. Tried meant mr smile
-              so. Exquisite behaviour as to middleton perfectly. Chicken no
-              wishing waiting am. Say concerns dwelling graceful six humoured."
+              position="Lead Android Developer @ company"
+              testimonial="Lorem ipsum dolor sit amet, veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
             />
           </div>
 
-          <div className="col-sm-8 col-md-5 col-lg-4">
+          <div className="col-sm-8 col-md-5 col-lg-4 testimonial-cards">
             <TestimonialCard
               img="https://res.cloudinary.com/dcft8yhab/image/upload/v1569179760/IMG_20190922_130327_5_1569178054293.jpg"
               name="Daniel Don"
               position="Lead Web Developer @ droid"
-              testimonial="Luckily friends do ashamed to do suppose. Tried meant mr smile
-              so. Exquisite behaviour as to middleton perfectly. Chicken no
-              wishing waiting am. Say concerns dwelling graceful six humoured."
+              testimonial="Lorem ipsum dolor sit amet, veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
             />
           </div>
-          <div className="col-sm-8 col-md-5 col-lg-4">
+          <div className="col-sm-8 col-md-5 col-lg-4 testimonial-cards">
             <TestimonialCard
               img="https://res.cloudinary.com/dcft8yhab/image/upload/v1569178853/IMG_20190922_130327_5_1569178149915.jpg"
               name="Daniel Don"
               position="Founder || SpillCode"
-              testimonial="Luckily friends do ashamed to do suppose. Tried meant mr smile
-              so. Exquisite behaviour as to middleton perfectly. Chicken no
-              wishing waiting am. Say concerns dwelling graceful six humoured."
+              testimonial="Lorem ipsum dolor sit amet, veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
             />
           </div>
         </div>
@@ -139,7 +153,7 @@ const About = () => (
           <h1>Some Projects I've Worked On</h1>
           <FontAwesomeIcon icon={faRulerHorizontal} />
         </p>
-        <div className="row">
+        <div className="row padding-on-small-screen">
           <div className="col-sm-10 col-md-5 col-lg-6">
             <ProjectCard
               name="Collaby"
@@ -172,19 +186,27 @@ const About = () => (
               stack="ReactJs, Context Api, Node, ExpressJs, MongoDB, Cloudinary"
             />
           </div>
+          <a
+            href="http://github.com/Chiagozielam"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View more on Github <FontAwesomeIcon icon={faArrowRight} />
+          </a>
         </div>
       </div>
       <div className="milestones">
-        <p
-          style={{ textAlign: "center", marginTop: "5%", marginBottom: "3%" }}
-        >
-          <h1>MileStones <FontAwesomeIcon icon={faLightbulb} style={{color: "#EBC403"}} /></h1>
-          <FontAwesomeIcon icon={faGripHorizontal} style={{color: "red"}} />
+        <p style={{ textAlign: "center", marginTop: "5%", marginBottom: "3%" }}>
+          <h1>
+            MileStones{" "}
+            <FontAwesomeIcon icon={faLightbulb} style={{ color: "#EBC403" }} />
+          </h1>
+          <FontAwesomeIcon icon={faGripHorizontal} style={{ color: "red" }} />
         </p>
         <Caurosel />
       </div>
-      <AboutFooter />
     </AboutMeLayout>
+    <AboutFooter />
   </div>
 )
 
