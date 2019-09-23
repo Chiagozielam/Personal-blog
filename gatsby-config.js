@@ -10,7 +10,7 @@ module.exports = {
     title: "Daniel Don",
     description: "This is a blog that gives you any latest content from me",
     keywords: "gatsby, reactjs, graphql, javascript, programming, concepts",
-    image: "/static/gatsby.jpg",
+    image: "https://res.cloudinary.com/dcft8yhab/image/upload/v1569179760/IMG_20190922_130327_5_1569178054293.jpg",
     url: "https://www.spillili.netlify.com",
     twitterHandle: "@spillcode"
   },

@@ -12,7 +12,7 @@ const Profile = () => (
     >
       <div className="col-1">
         <img
-          src="https://avatars3.githubusercontent.com/u/39469800?s=400&u=be7ccfa082d7bc7c924bb0cb18e6c3becf99c000&v=4"
+          src="https://res.cloudinary.com/dcft8yhab/image/upload/v1569179760/IMG_20190922_130327_5_1569178054293.jpg"
           width="100px"
           style={{ borderRadius: "35px" }}
           alt=""
@@ -49,7 +49,7 @@ const Profile = () => (
     >
       <div className="col-1">
         <img
-          src="https://avatars3.githubusercontent.com/u/39469800?s=400&u=be7ccfa082d7bc7c924bb0cb18e6c3becf99c000&v=4"
+          src="https://res.cloudinary.com/dcft8yhab/image/upload/v1569179760/IMG_20190922_130327_5_1569178054293.jpg"
           width="100px"
           style={{ borderRadius: "35px" }}
           alt=""
