@@ -15,7 +15,7 @@ const AboutFooter = () => {
         </p>
         <div className="row">
           <div className="col-sm-5">
-            <form action="">
+            <form name="Portfolio Contact Form" method="POST" netlify>
               <input
                 type="text"
                 name="FullName"
