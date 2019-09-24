@@ -95,7 +95,7 @@ const About = () => (
             accessibility and scalability <br />
             <button className="btn btn-primary">
               <a
-                href="https://res.cloudinary.com/dcft8yhab/image/upload/v1569266908/resume.pdf"
+                href="https://res.cloudinary.com/dcft8yhab/image/upload/v1569324256/Daniel_Don_-_Software_Developer__Community_Lead_Co-lead.pdf"
                 target="_blank"
                 style={{ color: "white", textDecoration: "none" }}
                 download
