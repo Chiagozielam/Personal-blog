@@ -19,6 +19,8 @@
     "@fortawesome/react-fontawesome": "^0.1.4",
     "bootstrap": "^4.3.1",
     "gatsby": "^2.13.82",
+    "gatsby-plugin-manifest": "^2.2.18",
+    "gatsby-plugin-offline": "^3.0.8",
     "gatsby-plugin-react-helmet": "^3.1.7",
     "gatsby-source-filesystem": "^2.1.17",
     "gatsby-source-wordpress": "^3.1.25",

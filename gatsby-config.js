@@ -33,5 +33,17 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Daniel Don`,
+        short_name: `D Blog`,
+        start_url: `/`,
+        background_color: `#141d26`,
+        theme_color: `#141d26`,
+        display: `standalone`,
+      },
+    },
+    `gatsby-plugin-offline`
   ],
 }
