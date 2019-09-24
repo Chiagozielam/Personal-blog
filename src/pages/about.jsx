@@ -196,14 +196,19 @@ const About = () => (
         </div>
       </div>
       <div className="milestones">
-        <p style={{ textAlign: "center", marginTop: "5%", marginBottom: "3%" }}>
+        <p style={{ textAlign: "center", marginTop: "5%", marginBottom: "1%" }}>
           <h1>
             MileStones{" "}
             <FontAwesomeIcon icon={faLightbulb} style={{ color: "#EBC403" }} />
           </h1>
           <FontAwesomeIcon icon={faGripHorizontal} style={{ color: "red" }} />
         </p>
-        <Caurosel />
+        <div className="row">
+          <div className="col-sm-10 col-md-2 col-lg-3"></div>
+          <div className="col-sm-10 col-md-8 col-lg-6"><Caurosel /></div>
+          <div className="col-sm-10 col-md-2 col-lg-3"></div>
+          
+        </div>
       </div>
     </AboutMeLayout>
     <AboutFooter />
