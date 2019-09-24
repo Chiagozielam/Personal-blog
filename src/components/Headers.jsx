@@ -25,17 +25,17 @@ export default class Headers extends Component {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link>
+            <Nav.Link style={{display: "inline"}}>
               <Link style={{ textDecoration: "none" }} to="/">
                 Blog
               </Link>
             </Nav.Link>
-            <Nav.Link>
+            <Nav.Link style={{display: "inline"}}>
               <Link style={{ textDecoration: "none" }} to="/contact">
                 Contact Me
               </Link>
             </Nav.Link>
-            <Nav.Link>
+            <Nav.Link style={{display: "inline"}}>
               <Link style={{ textDecoration: "none" }} to="/about">
                 Portfolio
               </Link>
