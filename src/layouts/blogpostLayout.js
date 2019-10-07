@@ -17,6 +17,7 @@ const BlogpostLayout = ({ data }) => {
           description={post.excerpt}
           image={post.frontmatter.image}
           keywords={post.frontmatter.keywords}
+          date = {post.frontmatter.date}
         />
         <Header />
         <div className="row" style={{color: "white" }}>
@@ -25,7 +26,7 @@ const BlogpostLayout = ({ data }) => {
           </div>
           <div className="col-sm-10">
             <div className="ml-5">
-              <h1 style={{textAlign: "center",}}>{post.frontmatter.title}</h1>
+              <h1 style={{textAlign: "center", fontSize: "55px", marginTop: "5%"}}>{post.frontmatter.title}</h1>
               <p style={{ margin: "4% auto", display: "block" }}>
                 <img src={post.frontmatter.image} style={{ width: "80%", margin: "0 auto", display: "block" }} />
               </p>
@@ -65,6 +66,7 @@ export const query = graphql`
         keywords
         title
         image
+        date
       }
     }
   }

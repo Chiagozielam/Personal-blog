@@ -1,16 +1,35 @@
-.post-cards{
-    border: 10px solid black !important;
-    transition: all .7s ease-in-out;
+.post-card-container{
+    border: 10px solid #0E1111 !important;
+    transition: all .1s ease-in-out;
     font-size: 150%;
-    margin-left: 10%;
+    /* margin-left: 10%; */
+    border-radius: 20px;
 }
 
-.post-cards:hover{
-    border-top: 5px dotted black !important;
+.post-card-container:hover{
+    border-left: 15px dotted #0E1111 !important;
+    border-right: 15px dotted #0E1111 !important;
+}
+.post-card-main{
+    background-color: #0E1111;    
+}
+#post-date{
+    color: rgb(149, 149, 149);
 }
 
-@media only screen and (min-width: "400px"){
-    .post-cards{
-        margin-left: -100% !important;
+@media only screen and (min-width: 600px ){
+    .post-card-container{
+        margin-left: 10% !important;
+    }
+}
+
+@media only screen and (min-width: 450px ){
+    .post-card-container{
+        margin-left: 20% !important;
+    }
+}
+@media only screen and (max-width: 450px ){
+    .post-card-container{
+        margin: 5%;
     }
 }

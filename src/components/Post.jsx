@@ -5,11 +5,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons"
 
 const Post = (props) => (
-  <div className="mt-5 shadow post-cards">
-    <Card>
-      <a href={props.readMore} style={{color: "black", textDecoration: "none"}}>
+  <div className="mt-5 shadow-lg post-card-container">
+    <Card className="post-card-main">
+      <a href={props.readMore} style={{color: "white", textDecoration: "none"}}>
       <Card.Body>
-        <Card.Title>{props.title}</Card.Title>
+        <Card.Title>
+          <h1>{props.title}</h1> 
+          <p id="post-date">{props.date}</p>
+        </Card.Title>
         <Card.Text>
           {props.excerpt}
         </Card.Text>

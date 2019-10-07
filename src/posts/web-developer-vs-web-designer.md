@@ -1,6 +1,6 @@
 ---
 title: "Web Developer Vs Web Designer"
-date: "2019-08-25"
+date: "Aug 25, 2019"
 keywords: "web developer, developer, designer, web designer"
 image: "https://file.mockplus.com/image/2017/11/a67e00d9-1e42-406a-99a9-056c8167020b.jpg"
 ---

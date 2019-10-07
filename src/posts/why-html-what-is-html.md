@@ -1,6 +1,6 @@
 ---
 title: "WHY HTML? WHAT IS HTML?"
-date: "2019-09-16"
+date: "Sept 16, 2019"
 keywords: "first keyword, second keyword"
 image: "https://image.freepik.com/free-vector/web-design-background_1300-39.jpg"
 ---

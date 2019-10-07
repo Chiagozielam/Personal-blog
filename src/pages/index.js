@@ -17,6 +17,7 @@ const Index = ({ data }) => {
                 image={node.frontmatter.image}
                 excerpt={node.excerpt}
                 readMore={node.fields.slug}
+                date = {node.frontmatter.date}
               />
           ))}
           </div>
@@ -38,6 +39,7 @@ export const query = graphql`
           date
           keywords
           image
+          date
         }
         excerpt
         html

@@ -1,6 +1,6 @@
 ---
 title: "HOW WEBSITES ARE CREATED"
-date: "2019-09-16"
+date: "Sept 16, 2019"
 keywords: "web developer, developer, designer, web designer, website"
 image: "https://media.istockphoto.com/vectors/creation-of-web-design-for-site-vector-id932758392?k=6&m=932758392&s=612x612&w=0&h=khbtCcbE34mVvic6pzAche2WTz-LimyBDlU-yqXiBV0="
 ---

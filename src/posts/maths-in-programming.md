@@ -1,12 +1,12 @@
 ---
 title: "YIKES! THE MATH IS SO TOUGH!!"
-date: "2019-09-16"
+date: "Sept 16, 2019"
 keywords: "programming, maths, difficult"
 image: "https://nondevelopers.com/wp-content/uploads/2018/12/MATH-VS-PROGRAMMING_Mesa-de-trabajo-1-1024x597.png"
 ---
 
-` Hey, I know math is tough, coupled with out math teachers in secondary/high school.
-You've seen many scary things about this field, you've seen so much maths(the movie depicts the programmer as an expert in math, who can literally do everything from his head and doesn't have the slightest need for a calculator!!). `
+` Hey, I know math is tough.
+You've seen many scary things about this field, you've seen so much maths, (the movie depicts the programmer as an expert in math, who can literally do everything from his head and doesn't have the slightest need for a calculator!!). `
 .
 In reality all this is over hyped! It really doesn't have to be so. Programming is fun, you just have to identify a problem, think of something fun, etc. and find a way to solve it using your computer,.
 .

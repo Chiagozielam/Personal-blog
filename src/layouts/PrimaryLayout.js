@@ -13,7 +13,7 @@ const PrimaryLayout = props => (
       <Header />
       <div className="">
         <div className="row">
-          <div className="col-sm-2 col-md-2 col-lg-2 d-none d-md-block">
+          <div className="col-sm-3 d-none d-md-block">
             <Profile />
           </div>
           <div className="col-sm-9">{props.children}</div>

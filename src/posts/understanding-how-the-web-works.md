@@ -1,6 +1,6 @@
 ---
 title: "UNDERSTANDING HOW THE WEB WORKS"
-date: "2019-08-24"
+date: "Aug 24, 2019"
 keywords: "first keyword, second keyword"
 image: "https://www.academind.com/static/359f7439a71a225da229970d54d36379/8ff1e/how-the-web-works.png"
 
