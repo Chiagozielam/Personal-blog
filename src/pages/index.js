@@ -12,12 +12,12 @@ const Index = ({ data }) => {
           style={{
             textAlign: "center",
             backgroundColor: "#505766",
-            height: "60vh",
+            height: "65vh",
           }}
           className="mt-5 d-md-none d-sm-block"
         >
-          <h1 style={{ paddingTop: "18%" }}>I'm Daniel Don</h1>
-          <h4 style={{ padding: "5%" }}>
+          <h1 style={{ paddingTop: "18%", color: "#FE5419" }}>I'm Daniel Don</h1>
+          <h4 style={{ padding: "5%", color: "#FE5419" }}>
             I write articles on web development and tackle popular myths in
             programming.
           </h4>

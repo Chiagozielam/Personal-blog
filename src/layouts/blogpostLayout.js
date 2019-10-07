@@ -4,6 +4,7 @@ import Header from "../components/Headers"
 import Footer from "../components/Footer"
 import SEO from "../components/SEO"
 import Profile from "../components/profile"
+import "./css/blogPostLayout.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faTwitter, faFacebook } from "@fortawesome/free-brands-svg-icons"
 
@@ -21,12 +22,12 @@ const BlogpostLayout = ({ data }) => {
         />
         <Header />
         <div className="row" style={{color: "white" }}>
-          <div className="col-sm-2 col-md-2 col-lg-2 ">
+          <div className="col-sm-3 col-md-2 col-lg-2 ">
             <Profile />
           </div>
-          <div className="col-sm-10">
-            <div className="ml-5">
-              <h1 style={{textAlign: "center", fontSize: "55px", marginTop: "5%"}}>{post.frontmatter.title}</h1>
+          <div className="col-sm-9 blog-post-container">
+            <div className="">
+              <h1 className="" style={{textAlign: "center", fontSize: "55px", marginTop: "5%"}}>{post.frontmatter.title}</h1>
               <p style={{ margin: "4% auto", display: "block" }}>
                 <img src={post.frontmatter.image} style={{ width: "80%", margin: "0 auto", display: "block" }} />
               </p>
