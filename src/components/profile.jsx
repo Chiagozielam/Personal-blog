@@ -72,6 +72,15 @@ const Profile = () => (
             >
               Follow @Chiagozielam
             </a>
+            <br />
+            <a
+              href="https://twitter.com/spillcode?ref_src=twsrc%5Etfw"
+              class="twitter-follow-button"
+              data-size="large"
+              data-show-count="true"
+            >
+              Follow @spillcode
+            </a>
             <div>
               <p>
                 <button className="btn" style={{ backgroundColor: "#D48B08" }}>

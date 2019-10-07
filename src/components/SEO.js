@@ -32,6 +32,8 @@ const SEO = ({title, description, image, keywords}) => (
                         <meta name="keywords" content={seo.keywords} />
                         <meta name="robots" content="index,follow" />
                         <script async defer src="https://buttons.github.io/buttons.js"></script>
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v4.0"></script>
                     </Helmet>
                 </div>
             )

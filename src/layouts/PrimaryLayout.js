@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 const PrimaryLayout = props => (
   <React.Fragment>
-    <div style={{ backgroundColor: "#141d26" }}>
+    <div style={{ backgroundColor: "#141d26", overflowX: "hidden" }}>
       <SEO />
       <Header />
       <div className="">
