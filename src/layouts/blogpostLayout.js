@@ -19,20 +19,22 @@ const BlogpostLayout = ({ data }) => {
           keywords={post.frontmatter.keywords}
         />
         <Header />
-        <div className="container" style={{ paddingTop: "5%", color: "white" }}>
-          <Profile />
-          <div className="row justify-content-md">
-            <h1>{post.frontmatter.title}</h1>
-            <p style={{ margin: "4% auto" }}>
-              <img src={post.frontmatter.image} style={{ width: "100%" }} />
-            </p>
-            <div
-              style={{ fontSize: "20px", margin: "5%" }}
-              dangerouslySetInnerHTML={{ __html: post.html }}
-            />
+        <div className="row" style={{color: "white" }}>
+          <div className="col-sm-2 col-md-2 col-lg-2 ">
+            <Profile />
           </div>
-        </div>
-        <span style={{ fontSize: "25px", marginLeft: "2%" }}>
+          <div className="col-sm-10">
+            <div className="ml-5">
+              <h1 style={{textAlign: "center",}}>{post.frontmatter.title}</h1>
+              <p style={{ margin: "4% auto", display: "block" }}>
+                <img src={post.frontmatter.image} style={{ width: "80%", margin: "0 auto", display: "block" }} />
+              </p>
+              <div
+                style={{ fontSize: "20px", margin: "5%" }}
+                dangerouslySetInnerHTML={{ __html: post.html }}
+              />
+            </div>
+            <span style={{ fontSize: "25px", marginLeft: "2%" }}>
           <a href="https://twitter.com/spillcode">
             <FontAwesomeIcon icon={faTwitter} />
           </a>
@@ -43,6 +45,9 @@ const BlogpostLayout = ({ data }) => {
             <FontAwesomeIcon icon={faFacebook} />
           </a>
         </span>
+          </div>
+        </div>
+        
         <Footer />
       </div>
     </React.Fragment>

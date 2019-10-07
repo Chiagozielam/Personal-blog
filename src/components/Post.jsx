@@ -1,6 +1,8 @@
 import React from "react"
 import {Card, Button} from 'react-bootstrap'
 import "./Post.css"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons"
 
 const Post = (props) => (
   <div className="mt-5 shadow post-cards">
@@ -11,7 +13,7 @@ const Post = (props) => (
         <Card.Text>
           {props.excerpt}
         </Card.Text>
-        <Button variant="primary" href={props.readMore}>Read More...</Button>
+        <Button variant="primary" href={props.readMore}>Read More <FontAwesomeIcon icon={faArrowRight} /></Button>
       </Card.Body>
       </a>
     </Card>

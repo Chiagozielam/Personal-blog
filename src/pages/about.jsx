@@ -54,7 +54,7 @@ const About = () => (
             </p>
             <hr />
             <p>
-              Community Leader
+              Campus Community Leader
               <FontAwesomeIcon
                 style={{ marginLeft: "2px" }}
                 icon={faPlaneDeparture}
@@ -62,7 +62,7 @@ const About = () => (
             </p>
             <hr />
             <p>
-              DevC PH Co / Content Lead
+              DevC PH Content Lead
               <FontAwesomeIcon
                 style={{ marginLeft: "2px" }}
                 icon={faPeopleCarry}

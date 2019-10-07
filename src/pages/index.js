@@ -10,16 +10,17 @@ const Index = ({ data }) => {
       <PrimaryLayout>
         
         <div class="row">
+          <div class="col-sm-10 col-md-8 col-lg-10">
           {data.allMarkdownRemark.nodes.reverse().map(node => (
-            <div class="col-sm-10 col-md-6 col-lg-4">
               <Post
                 title={node.frontmatter.title}
                 image={node.frontmatter.image}
                 excerpt={node.excerpt}
                 readMore={node.fields.slug}
               />
-            </div>
           ))}
+          </div>
+
         </div>
       </PrimaryLayout>
     </div>

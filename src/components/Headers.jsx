@@ -3,9 +3,7 @@ import {
   Navbar,
   NavDropdown,
   Nav,
-  Form,
   Button,
-  FormControl,
 } from "react-bootstrap"
 import { Link } from "gatsby"
 
@@ -19,7 +17,8 @@ export default class Headers extends Component {
       <Navbar
         bg="light"
         expand="lg"
-        style={{ position: "fixed", zIndex: "10000" }}
+        style={{ position: "fixed", zIndex: "10000", width: "100vw" }}
+        className="d-sm-block d-md-none"
       >
         <Navbar.Brand href="/">SpillCode</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -41,10 +40,6 @@ export default class Headers extends Component {
               </Link>
             </Nav.Link>
           </Nav>
-          <Form inline>
-            <FormControl type="text" placeholder="Search" onClick= {() => {alert("The search functionality is still under configuration and as such won't work for now.")}} className="mr-sm-2" />
-            <Button variant="outline-success">Search</Button>
-          </Form>
         </Navbar.Collapse>
       </Navbar>
     )
