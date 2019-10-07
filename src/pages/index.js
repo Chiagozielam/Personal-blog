@@ -16,8 +16,8 @@ const Index = ({ data }) => {
           }}
           className="mt-5 d-md-none d-sm-block"
         >
-          <h1 style={{ paddingTop: "12%" }}>I'm Daniel Don</h1>
-          <h4>
+          <h1 style={{ paddingTop: "18%" }}>I'm Daniel Don</h1>
+          <h4 style={{ padding: "5%" }}>
             I write articles on web development and tackle popular myths in
             programming.
           </h4>

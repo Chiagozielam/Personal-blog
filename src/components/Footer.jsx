@@ -3,7 +3,7 @@ import footerStyles from "./Footer.module.css"
 import { Link } from "gatsby"
 
 const Footer = () => (
-  <footer className={footerStyles.footer}>
+  <footer style={{zIndex: "100000"}} className={footerStyles.footer}>
     <div className="container">
       <div className="row">
         <div className="col-8">
