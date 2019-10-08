@@ -19,7 +19,7 @@ const SEO = ({title, description, image, keywords}) => (
             const seo = {
                 title: title || defaultTitle,
                 description: description || defaultDescription,
-                image: `${image ? image : defaultImage}`,
+                image: `${defaultImage ? defaultImage : image}`,
                 keywords: keywords || defaultKeywords
             }
             return (
