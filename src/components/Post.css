@@ -1,19 +1,28 @@
+:root {
+    --main-post-color: rgb(27, 30, 37);
+}
 body{
     overflow-x: hidden !important;
 }
 .post-card-container{
-    border: 10px solid #0E1111 !important;
+    border: 10px solid var(--main-post-color) !important;
     transition: all .1s ease-in-out;
     font-size: 150%;
     border-radius: 20px;
 }
-
+.post-card-title{
+    text-decoration: none;
+}
+.post-card-title:hover{
+    color: #FE5419;
+    text-decoration: none;
+}
 .post-card-container:hover{
-    border-left: 15px dotted #0E1111 !important;
-    border-right: 15px dotted #0E1111 !important;
+    border-left: 15px dotted var(--main-post-color) !important;
+    border-right: 15px dotted var(--main-post-color) !important;
 }
 .post-card-main{
-    background-color: #0E1111;    
+    background-color: var(--main-post-color);    
 }
 #post-date{
     color: rgb(149, 149, 149);

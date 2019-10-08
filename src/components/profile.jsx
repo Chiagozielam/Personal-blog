@@ -1,6 +1,7 @@
 import React from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faTwitter, faFacebook } from "@fortawesome/free-brands-svg-icons"
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons"
 import { Link } from "gatsby"
 
 const Profile = () => (
@@ -89,6 +90,7 @@ const Profile = () => (
                     style={{ color: "white", textDecoration: "none" }}
                   >
                     About Me
+                    <span style={{paddingLeft: "10px"}}><FontAwesomeIcon icon={faArrowRight} /></span>
                   </Link>
                 </button>
               </p>

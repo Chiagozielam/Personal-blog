@@ -10,7 +10,7 @@ const Post = (props) => (
       <a href={props.readMore} style={{color: "white", textDecoration: "none"}}>
       <Card.Body>
         <Card.Title>
-          <h1>{props.title}</h1> 
+          <a className= "post-card-title" href={props.readMore}><h1>{props.title}</h1></a>
           <p id="post-date">{props.date}</p>
         </Card.Title>
         <Card.Text>
