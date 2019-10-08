@@ -1,7 +1,7 @@
 ---
 title: "Let, Const, Var - How They Differ"
 date: "Oct 8, 2019"
-keywords: "programming, maths, difficult, variable declarations, let, const, var, block scope, universal scope, bubbling, encapsulation"
+keywords: "spillcode, spillili, programming, maths, difficult, variable declarations, let, const, var, block scope, universal scope, bubbling, encapsulation"
 image: "https://miro.medium.com/max/2000/1*kZXDtoVrpI8Ynwjo2jtKSA.png"
 ---
 
@@ -111,4 +111,4 @@ The `const` variable declaration type has really saved a lot of lives 😅, now 
 
 >>
 Thanks for reading!  
-Reach out to me on [Twitter](https://twitter.com/spillcode) and tell me how this helped you, or ask me a question.
+Follow me on [Twitter](https://twitter.com/spillcode) and tell me how this helped you, or leave a comment!

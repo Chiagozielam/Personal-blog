@@ -20,7 +20,7 @@ const SEO = ({title, description, image, keywords}) => (
             const seo = {
                 title: title || defaultTitle,
                 description: description || defaultDescription,
-                image: `${image ? image : url + defaultImage}`,
+                image: `${image ? image : defaultImage}`,
                 keywords: keywords || defaultKeywords
             }
             return (
@@ -51,7 +51,6 @@ const query = graphql`
       defaultTitle: title
       defaultDescription: description
       defaultImage: image 
-      url
       defaultKeywords: keywords
     }
   }
