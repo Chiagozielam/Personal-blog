@@ -174,14 +174,14 @@ const About = () => (
             <ProjectCard
               name="WeatherGuage"
               img="https://res.cloudinary.com/dcft8yhab/image/upload/v1569171712/weatherguage.png"
-              link="http://collaby.herokuapp.com/"
+              link="http://weatherguage.herokuapp.com"
               description=" Easily check the weather status of anywhere!"
               stack="ReactJs, Axios, API, Materialize Css"
             />
             <ProjectCard
               name="ShopMe"
               img="https://res.cloudinary.com/dcft8yhab/image/upload/v1569172604/ecomm1.png"
-              link="http://collaby.herokuapp.com/"
+              link="https://github.com/Chiagozielam/ShopMe"
               description=" A semi complex E-Commerce platform with login functionalities"
               stack="ReactJs, Context Api, Node, ExpressJs, MongoDB, Cloudinary"
             />
