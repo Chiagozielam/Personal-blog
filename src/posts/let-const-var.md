@@ -27,14 +27,17 @@ I will be using these concept as we procees, so it's nice youget used to them up
 `Var` was the boss. Yes! before ES6, var reigned as king in the JavaScript universe. But as time went on, there were few flaws found in the `var` declaration type, and something had to be done. `var`  is both locally / functionally scoped and globally scoped: This means that When a variable is declared with the keyword `var` outside of a function, it is globally available for use throughout the whole program ( be it inside of a function or outside ), and when a variable is declared with the `var` keyword inside  a function call, the variable is scoped locally and is only available inside the function declaration.  
 Let's look at an example:
 ---
-`var name = "Daniel Don";`  
-`function sayNameAndAge(){`  
-    `var age = 2000;`  
-    `console.log("My name is " + name + ", I'm " + age)`   
-`};`  
-`sayNameAndAge()`*// My name is Daniel Don, I'm 2000*  
-`console.log(age)`*// error: age is not defined*
+```
+var name = "Daniel Don";  
+function sayNameAndAge(){  
+    var age = 2000;`  
+    console.log("My name is " + name + ", I'm " + age)   
+};  
+sayNameAndAge()`*// My name is Daniel Don, I'm 2000*  
+console.log(age)`*// error: age is not defined*
+```
 ---
+
   
 In the example above, when we try to log ***age*** outside of the function it is declared in, this gives us an error, while the variable declared outside the function is still available inside the function call. This further explains what we mean by the local or global scope.  
   
@@ -44,14 +47,21 @@ This means that two variables could be declared with the same name in the same s
 ### LET
 The `let` variable declaration type was created and has almost replaced every scenario you would have to use the `var` before now. Variables declared with the `let` keyword could be **Updated** but not **Redefined**:  
 >>
-`let idea = "I want to build the new facebook!"`  
-`let idea = "I think I now prefer to build google from scratch!"`  
+```
+let idea = "I want to build the new facebook!"  
+let idea = "I think I now prefer to build google from scratch!"
+
+// Error: Cannot redefine variables defined with the let keyword
+ ```
 >>
 The above example would throw an **error** as you cannot redefine variables declared with the let keyword  
 >>
-`let idea = "I'll just buy the world"`  
-`idea = " I'll settle for planet earth!"`  
-`console.log(idea)` *// I'll settle for planet earth!*  
+```
+let idea = "I'll just buy the world"  
+idea = " I'll settle for planet earth!"  
+
+console.log(idea) // I'll settle for planet earth!
+```
 >>
 This worked because here we are updating the value of the variable already declared without redefining it.  
 The above examples helps us solve the problems we encountered when defining keywords with `var`, no more redefining variables unknowingly because not it would throw an **error**.  
@@ -59,14 +69,16 @@ The `let` keyword also defines blocked scoped variables. This means that variabl
 To explain this, I'll give an example:  
 >>
 >>
-` function() {`  
-`let number = 1`  
-`function() {`  
-`number = 2;`  
-`console.log(number)`*// 2*  
-`}`  
-`console.log(number)`*// 1*  
-`}`  
+```
+ function() {  
+   let number = 1`  
+   function() {  
+      number = 2;  
+      console.log(number`*// 2)  
+    }  
+   console.log(number)// 1  
+}
+```  
 >>
 In the above example we see that the variable ***number*** remains as **1** in the main block even after it was changed to **2** in an inner block. This tells us that when using the `let` keyword, same variable could be assigned different values depending on the scope it is being used in. This is a plus, because sometimes we need functionalities like this where we do not want to change the original value of our variable but only change it in a specific scope in our program.  
 The `let` keyword is now widely adopted instead of the `var` keyword because of the problem it solves and the advantages it comes with.
@@ -75,28 +87,32 @@ The `let` keyword is now widely adopted instead of the `var` keyword because of 
  Variables declared with the `const` keyword are very similar to  the variables declared with the `let` keyword, All the properties stated above for the `let` keyword is the same for the var keyword, except, Variables declared with the `const` keyword are **constants** and such, the value of a constant can't be changed through reassignment, and it can't be redeclared.  
  Here is an example:  
 >>
-`const number = 42;`  
-`number = 55` *// Uncaught TypeError: Assignment to constant variable.*  
+```
+const number = 42;  
+number = 55 // Uncaught TypeError: Assignment to constant variable.
+```  
 >>
 Here, we try to reassign another value to the already decalared **constant** variable, this doesn't work but returns a ***TypeError***.  
 >>
 The const declaration creates a read-only reference to a value. It does not mean the value it holds is immutable, just that the variable identifier cannot be reassigned. For instance, in the case where the content is an object, this means the object's contents (e.g., its properties) can be altered, This is same for when the content is an array.  
 Let's look at an example where we add an extra item to an array declared with the `const` keyword
 >>
-
-`const arr = [1, 2, "cat", "universe"];`  
-    `arr.push("Mutation");`  
-    `console.log(arr);` *// [1, 2, "cat", "universe", "Mutation"]*  
+```
+const arr = [1, 2, "cat", "universe"];  
+arr.push("Mutation");  
+console.log(arr); // [1, 2, "cat", "universe", "Mutation"]  
+```
 
 >>
 
 Let's try another example, this time with an object:
 
 >>
-
-`const obj = {name: "Daniel Don", hobby: "Watching movies", currentMovie: "Blacklist 5"};`  
-`obj.dream = "To make money"`  
-`console.log(obj);` *//{name: "Daniel Don", hobby: "Watching movies", currentMovie: "Blacklist 5", dream: "To make* *money"}*
+```
+const obj = {name: "Daniel Don", hobby: "Watching movies", currentMovie: "Blacklist 5"};  
+obj.dream = "To make money"  
+console.log(obj);` *//{name: "Daniel Don", hobby: "Watching movies", currentMovie: "Blacklist 5", dream: "To make* *money"}*
+```
 >>
 
 The `const` variable declaration type has really saved a lot of lives 😅, now you can be sure that anytime you ( or someone else with your code ) unknowingly try to reassign or redeclare a variable, it throws an error and points you to the right direction.
@@ -111,4 +127,4 @@ The `const` variable declaration type has really saved a lot of lives 😅, now 
 
 >>
 Thanks for reading!  
-Follow me on [Twitter](https://twitter.com/spillcode) and tell me how this helped you, or leave a comment!
+Follow me on [Twitter](https://twitter.com/spillcode) and tell me how this helped you, or leave a comment and a reaction!

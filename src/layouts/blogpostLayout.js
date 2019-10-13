@@ -18,7 +18,7 @@ const BlogpostLayout = ({ data }) => {
   }
   return (
     <React.Fragment>
-      <div style={{ backgroundColor: "#141d26" }}>
+      <div className= "entire-blogpost-container" style={{ backgroundColor: "#141d26" }}>
         <SEO
           title={post.title}
           description={post.excerpt}
@@ -31,10 +31,10 @@ const BlogpostLayout = ({ data }) => {
           <div className="col-sm-3 col-md-2 col-lg-2 ">
             <Profile />
           </div>
-          <div className="col-sm-9 blog-post-container">
-            <div className="">
+          <div className="col-sm-9">
+            <div className="blog-post-container">
               <h1
-                className=""
+                className="blog-post-title"
                 style={{
                   textAlign: "center",
                   fontSize: "55px",
@@ -43,6 +43,7 @@ const BlogpostLayout = ({ data }) => {
               >
                 {post.frontmatter.title}
               </h1>
+              <p style={{color: "gray", marginLeft: "10%"}}>{post.frontmatter.date}</p>
               <p style={{ margin: "4% auto", display: "block" }}>
                 <img
                   src={post.frontmatter.image}

@@ -1,3 +1,34 @@
+pre{
+    color: rgb(128, 126, 126) !important;
+    background-color: #000000;
+    padding: 5%;
+    border-radius:;
+    max-height: 300px;
+    margin: 0 auto;
+    overflow: auto;
+    margin-left: -5%;
+    margin-right: -5%;
+    border-left: 4px solid rgb(141, 132, 132);
+}
+
+.entire-blogpost-container{
+    width: 100vw;
+}
+.blog-post-container{
+    margin-right: -1%;
+}
+img{
+    width: 80%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: block;
+}
+
+
+
+
+
+
 @media only screen and (min-width: 800px ){
     .blog-post-container{
         margin-left: 5% !important;
@@ -14,6 +45,7 @@
 @media only screen and (max-width: 450px ){
     .blog-post-container{
         margin: 5%;
-        margin-top: 12%;
+        margin-top: 20%;
     }
+
 }
