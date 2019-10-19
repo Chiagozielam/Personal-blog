@@ -1,14 +1,107 @@
 @import url('https://fonts.googleapis.com/css?family=Gruppo|Rajdhani:500&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 body{
     font-family: 'Rajdhani', sans-serif;
 }
 
 .about-body{
-    color: aliceblue;
+    color: rgb(27, 27, 27);
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+}
+.head-box{
+    width: 100%;
+    height: 85vh;
+    background-image: url('https://res.cloudinary.com/dcft8yhab/image/upload/v1558391588/iycryu9wqpu6excdl2z5.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 150px;
+
+}
+.head-box-content{
+    height: 200px;
+    padding-top: 150px;
+    margin-left: 5%;
+    font-family: consolas;
+}
+.head-box-content h3{
+    font-weight: bolder;
+
+}
+
+.head-box-content h2{
+    animation: type 3s steps(21);
+    overflow: hidden;
+    white-space: pre;
+    font-family: consolas;
+    border-right: 4px solid black;
+    font-weight: bold;
+    width: 22ch;
+}
+
+@keyframes type {
+    0% {
+        width: 0ch;
+    }
+    100% {
+        width: 21ch;
+    }
+}
+.twitter-follow-btn{
+    font-size: 15px;
+    background-color: #1B95E0;
+    width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid rgb(14, 115, 179) ;
+}
+.twitter-follow-btn a{
+    text-decoration: none;
+    color: white;
+
+
+}
+.twitter-follow-btn:hover{
+    color: white;
+    background-color: rgb(17, 128, 197);
+}
+.github-follow-btn{
+    font-size: 15px;
+    background-color: #F6F8FA;
+    width: 250px;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid rgb(170, 170, 170) ;
+}
+.github-follow-btn a{
+    text-decoration: none;
+    color: black;
+}
+.github-follow-btn:hover{
+    background-color: rgb(170, 170, 170);
+}
+.blog-btn{
+    font-size: 20px;
+    width: 250px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 2px solid rgb(170, 170, 170) ;
+}
+.blog-btn Link{
+    text-decoration: none;
 }
 .skills{
-    margin-top: 10%;
+    margin-top: 15%;
+    font-size: 17px;
+    font-weight: bold;
 }
 
 .skills hr{
@@ -22,26 +115,52 @@ body{
 #intro-text{
     margin-top: 5%;
     text-align: justify;
-    font-size: 16px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 80px;
+  width: 80px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
 }
 
 
 
 @media only screen and (max-width: 370px) {
-    .about-body{
-    }
+
     #about-me-head-img{
-        margin-left: 16% !important;
+        margin: 0 auto;
         margin-top: 15% !important;
+        height: 300px;
     }
     .skills p{
         text-align: left;
+    }
+    .skills hr{
+        border-color: rgb(201, 199, 199);
     }
     .padding-on-small-screen{
         padding: 5%;
     }
     .testimonial-cards{
-        margin-top: 20%;
+        margin-top: 15%;
     }
   }
 

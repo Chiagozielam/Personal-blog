@@ -9,10 +9,6 @@ import { Link } from "gatsby"
 
 export default class Headers extends Component {
   render() {
-
-    const searchAlert = () => {
-      alert("hello world")
-    }
     return (
       <Navbar
         bg="light"

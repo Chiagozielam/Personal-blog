@@ -3,7 +3,7 @@ import "./ProjectCard.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faSadCry } from "@fortawesome/free-solid-svg-icons"
 
-const ProjectCard = ({ img, name, description, link, icon, stack }) => (
+const ProjectCard = ({ img, name, description, link, icon, stack, linkText }) => (
   <div>
     <div className="project-box">
       <div className="row">
@@ -19,7 +19,7 @@ const ProjectCard = ({ img, name, description, link, icon, stack }) => (
             <b>Stack: </b> <span style={{ color: "red" }}>{stack}</span>
           </p>
           <a href={link} target="_blank">
-            View Live Demo
+            {linkText}
           </a>
         </div>
       </div>

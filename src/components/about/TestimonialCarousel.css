@@ -1,0 +1,41 @@
+.carousel-box{
+    width: 50%;
+    margin: 0 auto;
+}
+.recommendation-img{
+    border-radius: 45px;
+    margin: 1% auto;
+    margin-top: 7%;
+    width: 190px;
+    height: 190px;
+    z-index: 100;
+}
+
+.recommendation-text{
+    text-align: center;
+    color: black;
+    padding: 3%;
+}
+.recommender-name{
+    padding-top: 1%;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 18px
+}
+.recommender-title{
+    font-weight: lighter;
+    color: rgb(236, 64, 12);
+    text-align: center;
+    font-size: 16px;
+    margin-top: -3%;
+}
+
+
+
+
+@media only screen and (max-width: 400px) {
+    .carousel-box{
+        width: 100%;
+    }
+}

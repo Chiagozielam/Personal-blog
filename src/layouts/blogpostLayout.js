@@ -55,7 +55,7 @@ const BlogpostLayout = ({ data }) => {
                 dangerouslySetInnerHTML={{ __html: post.html }}
               />
             </div>
-            <span style={{ fontSize: "25px", marginLeft: "2%" }}>
+            <span className="d-md-block" style={{ fontSize: "25px", marginLeft: "2%" }}>
               <a href="https://twitter.com/spillcode">
                 <FontAwesomeIcon icon={faTwitter} />
               </a>
@@ -66,7 +66,7 @@ const BlogpostLayout = ({ data }) => {
                 <FontAwesomeIcon icon={faFacebook} />
               </a>
             </span>
-          <DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
+          <div style={{width: "85%", margin: "0 auto"}}><DiscussionEmbed shortname={disqusShortname} config={disqusConfig} /></div>
           </div>
         </div>
 
