@@ -243,4 +243,6 @@ Next, we use an `if` conditional statement, this is to check if there is a value
 # Conclusion
 We have come to the end of this tutorial, Now we have a functioning calculator that could add, devide, substract, and multiply, clear screen, etc.  
 Do you have questions? Or do you have a tutorial you'll love to see? Leave a comment, or send me a message on twitter.  
-Don't forget to follow me on twitter for  more awesomeness
+Here's a link to the github repository for this project.
+- [https://github.com/Chiagozielam/Simple-Calcuator](https://github.com/Chiagozielam/Simple-Calcuator)  
+Don't forget to follow me on twitter `@spillcode` for  more awesomeness
