@@ -30,7 +30,6 @@ const AboutFooter = () => {
     };
     xhr.send(data);
   }
-}
 
   return (
     <div>
